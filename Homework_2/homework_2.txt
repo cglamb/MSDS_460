@@ -1,0 +1,166 @@
+Python 3.10.9 | packaged by Anaconda, Inc. | (main, Mar  1 2023, 18:18:15) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.10.0 -- An enhanced Interactive Python.
+
+runfile('C:/Users/CGLam/OneDrive - Northwestern University/MSDS 460/LP Application/Homework_2/MSDS_460_hw2_group2.py', wdir='C:/Users/CGLam/OneDrive - Northwestern University/MSDS 460/LP Application/Homework_2')
+Expected Scenario:
+t0: 0.0
+tA: 5.0
+tB: 10.0
+tC: 10.0
+tD1: 21.0
+tD2: 261.0
+tD3: 221.0
+tD4: 481.0
+tD5: 489.0
+tD6: 641.0
+tD7: 801.0
+tD8: 805.0
+tE: 20.0
+tF: 1125.0
+tG: 850.0
+z: 1170.0
+Worse Scenario:
+t0: 0.0
+tA: 6.0
+tB: 12.0
+tC: 11.0
+tD1: 23.0
+tD2: 306.0
+tD3: 263.0
+tD4: 574.0
+tD5: 584.0
+tD6: 764.0
+tD7: 974.0
+tD8: 978.0
+tE: 23.0
+tF: 1378.0
+tG: 1039.0
+z: 1432.0
+Best Scenario:
+t0: 0.0
+tA: 5.0
+tB: 10.0
+tC: 10.0
+tD1: 20.0
+tD2: 229.0
+tD3: 208.0
+tD4: 431.0
+tD5: 439.0
+tD6: 589.0
+tD7: 728.0
+tD8: 732.0
+tE: 20.0
+tF: 1030.0
+tG: 772.0
+z: 1072.0
+alternative approach using dictionary.  gets same answers as above:
+Critical Path time for Expected Time Estimates:
+A starts at time 0
+B starts at time 0
+H ends at 1170.0 days in duration
+
+Solution variable values:
+end_A = 5.0
+end_B = 10.0
+end_C = 10.0
+end_D1 = 21.0
+end_D2 = 261.0
+end_D3 = 221.0
+end_D4 = 481.0
+end_D5 = 489.0
+end_D6 = 641.0
+end_D7 = 801.0
+end_D8 = 805.0
+end_E = 20.0
+end_F = 1125.0
+end_G = 850.0
+end_H = 1170.0
+start_A = 0.0
+start_B = 0.0
+start_C = 5.0
+start_D1 = 5.0
+start_D2 = 21.0
+start_D3 = 21.0
+start_D4 = 261.0
+start_D5 = 481.0
+start_D6 = 481.0
+start_D7 = 641.0
+start_D8 = 801.0
+start_E = 10.0
+start_F = 805.0
+start_G = 805.0
+start_H = 1125.0
+Critical Path time for Worse Case Time Estimates:
+A starts at time 0
+B starts at time 0
+H ends at 1432.0 days in duration
+
+Solution variable values:
+end_A = 6.0
+end_B = 12.0
+end_C = 11.0
+end_D1 = 23.0
+end_D2 = 306.0
+end_D3 = 263.0
+end_D4 = 574.0
+end_D5 = 584.0
+end_D6 = 764.0
+end_D7 = 974.0
+end_D8 = 978.0
+end_E = 23.0
+end_F = 1378.0
+end_G = 1039.0
+end_H = 1432.0
+start_A = 0.0
+start_B = 0.0
+start_C = 6.0
+start_D1 = 6.0
+start_D2 = 23.0
+start_D3 = 23.0
+start_D4 = 306.0
+start_D5 = 574.0
+start_D6 = 574.0
+start_D7 = 764.0
+start_D8 = 974.0
+start_E = 12.0
+start_F = 978.0
+start_G = 978.0
+start_H = 1378.0
+Critical Path time for Best Case Time Estimates:
+A starts at time 0
+B starts at time 0
+H ends at 1072.0 days in duration
+
+Solution variable values:
+end_A = 5.0
+end_B = 10.0
+end_C = 10.0
+end_D1 = 20.0
+end_D2 = 229.0
+end_D3 = 208.0
+end_D4 = 431.0
+end_D5 = 439.0
+end_D6 = 589.0
+end_D7 = 728.0
+end_D8 = 732.0
+end_E = 20.0
+end_F = 1030.0
+end_G = 772.0
+end_H = 1072.0
+start_A = 0.0
+start_B = 0.0
+start_C = 5.0
+start_D1 = 5.0
+start_D2 = 20.0
+start_D3 = 20.0
+start_D4 = 229.0
+start_D5 = 431.0
+start_D6 = 431.0
+start_D7 = 589.0
+start_D8 = 728.0
+start_E = 10.0
+start_F = 732.0
+start_G = 732.0
+start_H = 1030.0
