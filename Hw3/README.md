@@ -24,10 +24,6 @@ Hw3_Group2_NJ_South_Jersey_v4.ipynb: Variant of Hw3_Group2_NJ_South_Jersey_v3.ip
 
 ### Solution
 
-Map of the regions below.  10 unique districts.  2 of the districs receive two representives
+The following form unique districts: Essex, Somerset-Union, Hudson, Hunterton-Morris-Warren, Bergen, Passaic-Sussex, Atlantic-Cape-Cumberland-Gloucester-Salem, Monmouth-Ocean, Burlington-Camden, and Mercer-Middlesex
 
-![image.png](attachment:image.png)
-
-Per each district, population per representitive:
-
-![image.png](attachment:image.png)
+Monmouth-Ocean and Mercer-Middlesex receive two delegates
